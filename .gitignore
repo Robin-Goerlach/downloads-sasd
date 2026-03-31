@@ -1,0 +1,21 @@
+###############################################################################
+# SASD GmbH
+# Project: downloads-sasd
+# File: .gitignore
+#
+# Description:
+#   Defines repository-wide ignore rules for local development files,
+#   generated artifacts, caches, logs and editor-specific metadata.
+#
+# Maintainer: Robin Goerlach
+# Created: 2026-03-31
+###############################################################################
+/vendor/
+/.idea/
+/.vscode/
+/.phpunit.result.cache
+/.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
