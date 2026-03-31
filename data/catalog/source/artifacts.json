@@ -1,0 +1,281 @@
+[
+  {
+    "id": "mustela-2.0.0-package",
+    "slug": "mustela-2-0-0-package",
+    "productSlug": "mustela",
+    "group": "products",
+    "type": "package",
+    "title": {
+      "de": "Mustela 2.0.0 Paket",
+      "en": "Mustela 2.0.0 package"
+    },
+    "description": {
+      "de": "Aktuelles Paket von Mustela 2.0.0 für den produktiven Einsatz.",
+      "en": "Current Mustela 2.0.0 package for productive use."
+    },
+    "version": "2.0.0",
+    "language": "multi",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-28",
+    "path": "products/mustela/2.0.0/mustela-2.0.0.zip",
+    "featured": true,
+    "popular": true,
+    "tags": [
+      "php",
+      "logging",
+      "release"
+    ]
+  },
+  {
+    "id": "mustela-2.0.0-manual-de",
+    "slug": "mustela-handbuch-2-0-0-de",
+    "productSlug": "mustela",
+    "group": "documentation",
+    "type": "manual",
+    "title": {
+      "de": "Mustela Handbuch",
+      "en": "Mustela Manual"
+    },
+    "description": {
+      "de": "Deutsches Handbuch für Installation, Konfiguration und Betrieb von Mustela.",
+      "en": "German manual covering installation, configuration and operations for Mustela."
+    },
+    "version": "2.0.0",
+    "language": "de",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-28",
+    "path": "products/mustela/2.0.0/mustela-handbuch-2.0.0-de.pdf",
+    "featured": true,
+    "popular": false,
+    "tags": [
+      "manual",
+      "de",
+      "docs"
+    ]
+  },
+  {
+    "id": "mustela-2.0.0-manual-en",
+    "slug": "mustela-manual-2-0-0-en",
+    "productSlug": "mustela",
+    "group": "documentation",
+    "type": "manual",
+    "title": {
+      "de": "Mustela Manual (Englisch)",
+      "en": "Mustela Manual (English)"
+    },
+    "description": {
+      "de": "Englisches Handbuch für internationale Nutzer und Partner.",
+      "en": "English manual for international users and partners."
+    },
+    "version": "2.0.0",
+    "language": "en",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-28",
+    "path": "products/mustela/2.0.0/mustela-manual-2.0.0-en.pdf",
+    "featured": false,
+    "popular": true,
+    "tags": [
+      "manual",
+      "en",
+      "docs"
+    ]
+  },
+  {
+    "id": "keeper-1.1.2-installer",
+    "slug": "keeper-1-1-2-installer",
+    "productSlug": "keeper",
+    "group": "products",
+    "type": "installer",
+    "title": {
+      "de": "Keeper 1.1.2 Installer",
+      "en": "Keeper 1.1.2 installer"
+    },
+    "description": {
+      "de": "Installationspaket für Keeper 1.1.2.",
+      "en": "Installer package for Keeper 1.1.2."
+    },
+    "version": "1.1.2",
+    "language": "multi",
+    "platform": "linux",
+    "status": "current",
+    "releaseDate": "2026-03-24",
+    "path": "products/keeper/1.1.2/keeper-1.1.2-installer.zip",
+    "featured": true,
+    "popular": true,
+    "tags": [
+      "security",
+      "server",
+      "installer"
+    ]
+  },
+  {
+    "id": "keeper-1.1.2-guide-de",
+    "slug": "keeper-admin-guide-1-1-2-de",
+    "productSlug": "keeper",
+    "group": "documentation",
+    "type": "guide",
+    "title": {
+      "de": "Keeper Admin Guide (Deutsch)",
+      "en": "Keeper Admin Guide (German)"
+    },
+    "description": {
+      "de": "Administrationsleitfaden für Deployment, Betrieb und Wartung von Keeper.",
+      "en": "Administration guide for deployment, operations and maintenance of Keeper."
+    },
+    "version": "1.1.2",
+    "language": "de",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-24",
+    "path": "products/keeper/1.1.2/keeper-admin-guide-1.1.2-de.pdf",
+    "featured": false,
+    "popular": true,
+    "tags": [
+      "admin",
+      "guide",
+      "docs"
+    ]
+  },
+  {
+    "id": "logview-3.5-package",
+    "slug": "sasd-logview-3-5-package",
+    "productSlug": "logview",
+    "group": "products",
+    "type": "package",
+    "title": {
+      "de": "SASD LogView 3.5",
+      "en": "SASD LogView 3.5"
+    },
+    "description": {
+      "de": "Desktop-Paket von SASD LogView 3.5 für Log-Analyse und Sichtung.",
+      "en": "Desktop package of SASD LogView 3.5 for log analysis and inspection."
+    },
+    "version": "3.5",
+    "language": "multi",
+    "platform": "windows",
+    "status": "current",
+    "releaseDate": "2026-03-20",
+    "path": "products/logview/3.5/sasd-logview-3.5.zip",
+    "featured": false,
+    "popular": true,
+    "tags": [
+      "desktop",
+      "windows",
+      "logs"
+    ]
+  },
+  {
+    "id": "cpp-training-2026-03-workbook",
+    "slug": "cpp-training-2026-03-workbook",
+    "productSlug": null,
+    "group": "training",
+    "type": "workbook",
+    "title": {
+      "de": "C++ Training März 2026 – Workbook",
+      "en": "C++ Training March 2026 – Workbook"
+    },
+    "description": {
+      "de": "Arbeitsunterlage für das SASD C++ Training mit Übungen und Notizen.",
+      "en": "Workbook for the SASD C++ training with exercises and notes."
+    },
+    "version": "2026-03",
+    "language": "de",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-18",
+    "path": "training/cpp-course/2026-03/cpp-training-2026-03-workbook-de.pdf",
+    "featured": true,
+    "popular": false,
+    "tags": [
+      "training",
+      "cpp",
+      "workbook"
+    ]
+  },
+  {
+    "id": "cpp-training-2026-03-slides",
+    "slug": "cpp-training-2026-03-slides",
+    "productSlug": null,
+    "group": "training",
+    "type": "slides",
+    "title": {
+      "de": "C++ Training März 2026 – Präsentation",
+      "en": "C++ Training March 2026 – Slides"
+    },
+    "description": {
+      "de": "Präsentationsfolien zum C++ Grundlagentraining.",
+      "en": "Presentation slides for the C++ fundamentals training."
+    },
+    "version": "2026-03",
+    "language": "de",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-18",
+    "path": "training/cpp-course/2026-03/cpp-training-2026-03-slides-de.pdf",
+    "featured": false,
+    "popular": true,
+    "tags": [
+      "training",
+      "cpp",
+      "slides"
+    ]
+  },
+  {
+    "id": "sasd-engineering-guide-companion",
+    "slug": "sasd-engineering-guide-companion-files",
+    "productSlug": null,
+    "group": "books",
+    "type": "companion",
+    "title": {
+      "de": "SASD Engineering Guide – Begleitmaterial",
+      "en": "SASD Engineering Guide – Companion files"
+    },
+    "description": {
+      "de": "Begleitdateien, Beispiele und Vorlagen zum SASD Engineering Guide.",
+      "en": "Companion files, examples and templates for the SASD Engineering Guide."
+    },
+    "version": "2026-01",
+    "language": "multi",
+    "platform": "neutral",
+    "status": "current",
+    "releaseDate": "2026-03-10",
+    "path": "books/sasd-engineering-guide/2026-01/sasd-engineering-guide-companion-files.zip",
+    "featured": false,
+    "popular": false,
+    "tags": [
+      "book",
+      "templates",
+      "examples"
+    ]
+  },
+  {
+    "id": "mustela-1.8.0-archive",
+    "slug": "mustela-1-8-0-archive-package",
+    "productSlug": "mustela",
+    "group": "products",
+    "type": "package",
+    "title": {
+      "de": "Mustela 1.8.0 Archivpaket",
+      "en": "Mustela 1.8.0 archive package"
+    },
+    "description": {
+      "de": "Älteres Archivpaket für Kompatibilitätszwecke.",
+      "en": "Older archive package for compatibility purposes."
+    },
+    "version": "1.8.0",
+    "language": "multi",
+    "platform": "neutral",
+    "status": "archived",
+    "releaseDate": "2025-12-15",
+    "path": "products/mustela/1.8.0/mustela-1.8.0.zip",
+    "featured": false,
+    "popular": false,
+    "tags": [
+      "archive",
+      "legacy"
+    ]
+  }
+]

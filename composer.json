@@ -1,0 +1,13 @@
+{
+  "name": "sasdgmbh/downloads-sasd",
+  "description": "Quick-and-clean PHP catalog application for downloads.sasd.de",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

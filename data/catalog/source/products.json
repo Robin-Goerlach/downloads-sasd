@@ -1,0 +1,71 @@
+[
+  {
+    "id": "mustela",
+    "slug": "mustela",
+    "title": {
+      "de": "Mustela",
+      "en": "Mustela"
+    },
+    "summary": {
+      "de": "Flexibles Logging-Framework im SASD-Stil für PHP-Anwendungen.",
+      "en": "Flexible SASD-style logging framework for PHP applications."
+    },
+    "description": {
+      "de": "Mustela ist ein modular aufgebautes Logging-Framework im SASD-Umfeld und dient als saubere Grundlage für strukturierte Log-Ausgaben, Appender und Formatter.",
+      "en": "Mustela is a modular logging framework in the SASD ecosystem and provides a clean base for structured log output, appenders and formatters."
+    },
+    "productPageUrl": "https://software.sasd.de/products/mustela",
+    "featured": true,
+    "tags": [
+      "php",
+      "logging",
+      "sasd"
+    ]
+  },
+  {
+    "id": "keeper",
+    "slug": "keeper",
+    "title": {
+      "de": "Keeper",
+      "en": "Keeper"
+    },
+    "summary": {
+      "de": "Vault-ähnlicher Geheimnis- und Konfigurationsserver im NimbusJS/SASD-Umfeld.",
+      "en": "Vault-like secret and configuration server in the NimbusJS/SASD ecosystem."
+    },
+    "description": {
+      "de": "Keeper dient als Grundlage für sichere Secret-Verwaltung, Konfigurationsversorgung und zukünftige SASD-Infrastruktur-Workflows.",
+      "en": "Keeper acts as a foundation for secure secret management, configuration delivery and future SASD infrastructure workflows."
+    },
+    "productPageUrl": "https://software.sasd.de/products/keeper",
+    "featured": true,
+    "tags": [
+      "security",
+      "vault",
+      "nimbusjs"
+    ]
+  },
+  {
+    "id": "logview",
+    "slug": "logview",
+    "title": {
+      "de": "SASD LogView",
+      "en": "SASD LogView"
+    },
+    "summary": {
+      "de": "Desktop-Werkzeug zum Durchsuchen, Filtern und Analysieren technischer Logdateien.",
+      "en": "Desktop utility for browsing, filtering and analyzing technical log files."
+    },
+    "description": {
+      "de": "SASD LogView bündelt typische Auswertungsfunktionen für technische Logs und kann später mit weiteren Parsern und Exporten erweitert werden.",
+      "en": "SASD LogView bundles common analysis features for technical logs and can later be extended with more parsers and exports."
+    },
+    "productPageUrl": "https://software.sasd.de/products/logview",
+    "featured": true,
+    "tags": [
+      "desktop",
+      "logs",
+      "analysis"
+    ]
+  }
+]

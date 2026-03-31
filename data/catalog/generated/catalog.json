@@ -1,0 +1,385 @@
+{
+    "generatedAt": "2026-03-31T06:45:00+00:00",
+    "products": [
+        {
+            "id": "mustela",
+            "slug": "mustela",
+            "title": {
+                "de": "Mustela",
+                "en": "Mustela"
+            },
+            "summary": {
+                "de": "Flexibles Logging-Framework im SASD-Stil f\u00fcr PHP-Anwendungen.",
+                "en": "Flexible SASD-style logging framework for PHP applications."
+            },
+            "description": {
+                "de": "Mustela ist ein modular aufgebautes Logging-Framework im SASD-Umfeld und dient als saubere Grundlage f\u00fcr strukturierte Log-Ausgaben, Appender und Formatter.",
+                "en": "Mustela is a modular logging framework in the SASD ecosystem and provides a clean base for structured log output, appenders and formatters."
+            },
+            "productPageUrl": "https://software.sasd.de/products/mustela",
+            "featured": true,
+            "tags": [
+                "php",
+                "logging",
+                "sasd"
+            ]
+        },
+        {
+            "id": "keeper",
+            "slug": "keeper",
+            "title": {
+                "de": "Keeper",
+                "en": "Keeper"
+            },
+            "summary": {
+                "de": "Vault-\u00e4hnlicher Geheimnis- und Konfigurationsserver im NimbusJS/SASD-Umfeld.",
+                "en": "Vault-like secret and configuration server in the NimbusJS/SASD ecosystem."
+            },
+            "description": {
+                "de": "Keeper dient als Grundlage f\u00fcr sichere Secret-Verwaltung, Konfigurationsversorgung und zuk\u00fcnftige SASD-Infrastruktur-Workflows.",
+                "en": "Keeper acts as a foundation for secure secret management, configuration delivery and future SASD infrastructure workflows."
+            },
+            "productPageUrl": "https://software.sasd.de/products/keeper",
+            "featured": true,
+            "tags": [
+                "security",
+                "vault",
+                "nimbusjs"
+            ]
+        },
+        {
+            "id": "logview",
+            "slug": "logview",
+            "title": {
+                "de": "SASD LogView",
+                "en": "SASD LogView"
+            },
+            "summary": {
+                "de": "Desktop-Werkzeug zum Durchsuchen, Filtern und Analysieren technischer Logdateien.",
+                "en": "Desktop utility for browsing, filtering and analyzing technical log files."
+            },
+            "description": {
+                "de": "SASD LogView b\u00fcndelt typische Auswertungsfunktionen f\u00fcr technische Logs und kann sp\u00e4ter mit weiteren Parsern und Exporten erweitert werden.",
+                "en": "SASD LogView bundles common analysis features for technical logs and can later be extended with more parsers and exports."
+            },
+            "productPageUrl": "https://software.sasd.de/products/logview",
+            "featured": true,
+            "tags": [
+                "desktop",
+                "logs",
+                "analysis"
+            ]
+        }
+    ],
+    "artifacts": [
+        {
+            "id": "mustela-2.0.0-package",
+            "slug": "mustela-2-0-0-package",
+            "productSlug": "mustela",
+            "group": "products",
+            "type": "package",
+            "title": {
+                "de": "Mustela 2.0.0 Paket",
+                "en": "Mustela 2.0.0 package"
+            },
+            "description": {
+                "de": "Aktuelles Paket von Mustela 2.0.0 f\u00fcr den produktiven Einsatz.",
+                "en": "Current Mustela 2.0.0 package for productive use."
+            },
+            "version": "2.0.0",
+            "language": "multi",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-28",
+            "path": "products/mustela/2.0.0/mustela-2.0.0.zip",
+            "featured": true,
+            "popular": true,
+            "tags": [
+                "php",
+                "logging",
+                "release"
+            ],
+            "fileName": "mustela-2.0.0.zip",
+            "fileSize": 179,
+            "checksumSha256": "a73e8703edf33fe13409cc0825b816918293619dc39c6560d28429cd61978785"
+        },
+        {
+            "id": "mustela-2.0.0-manual-de",
+            "slug": "mustela-handbuch-2-0-0-de",
+            "productSlug": "mustela",
+            "group": "documentation",
+            "type": "manual",
+            "title": {
+                "de": "Mustela Handbuch",
+                "en": "Mustela Manual"
+            },
+            "description": {
+                "de": "Deutsches Handbuch f\u00fcr Installation, Konfiguration und Betrieb von Mustela.",
+                "en": "German manual covering installation, configuration and operations for Mustela."
+            },
+            "version": "2.0.0",
+            "language": "de",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-28",
+            "path": "products/mustela/2.0.0/mustela-handbuch-2.0.0-de.pdf",
+            "featured": true,
+            "popular": false,
+            "tags": [
+                "manual",
+                "de",
+                "docs"
+            ],
+            "fileName": "mustela-handbuch-2.0.0-de.pdf",
+            "fileSize": 1708,
+            "checksumSha256": "28f6318d084e1e8e751489fb01e6920e0895adab9dd8b5596439a799e19b963a"
+        },
+        {
+            "id": "mustela-2.0.0-manual-en",
+            "slug": "mustela-manual-2-0-0-en",
+            "productSlug": "mustela",
+            "group": "documentation",
+            "type": "manual",
+            "title": {
+                "de": "Mustela Manual (Englisch)",
+                "en": "Mustela Manual (English)"
+            },
+            "description": {
+                "de": "Englisches Handbuch f\u00fcr internationale Nutzer und Partner.",
+                "en": "English manual for international users and partners."
+            },
+            "version": "2.0.0",
+            "language": "en",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-28",
+            "path": "products/mustela/2.0.0/mustela-manual-2.0.0-en.pdf",
+            "featured": false,
+            "popular": true,
+            "tags": [
+                "manual",
+                "en",
+                "docs"
+            ],
+            "fileName": "mustela-manual-2.0.0-en.pdf",
+            "fileSize": 1692,
+            "checksumSha256": "9abefade50ec79e4067879a13ab93d2afbd43ea57536d1bfd91d377f58d6d30c"
+        },
+        {
+            "id": "keeper-1.1.2-installer",
+            "slug": "keeper-1-1-2-installer",
+            "productSlug": "keeper",
+            "group": "products",
+            "type": "installer",
+            "title": {
+                "de": "Keeper 1.1.2 Installer",
+                "en": "Keeper 1.1.2 installer"
+            },
+            "description": {
+                "de": "Installationspaket f\u00fcr Keeper 1.1.2.",
+                "en": "Installer package for Keeper 1.1.2."
+            },
+            "version": "1.1.2",
+            "language": "multi",
+            "platform": "linux",
+            "status": "current",
+            "releaseDate": "2026-03-24",
+            "path": "products/keeper/1.1.2/keeper-1.1.2-installer.zip",
+            "featured": true,
+            "popular": true,
+            "tags": [
+                "security",
+                "server",
+                "installer"
+            ],
+            "fileName": "keeper-1.1.2-installer.zip",
+            "fileSize": 161,
+            "checksumSha256": "ee33a61223071895c15e00d5dc6aaa00f4d042622f0683c653bdb09902ad60d6"
+        },
+        {
+            "id": "keeper-1.1.2-guide-de",
+            "slug": "keeper-admin-guide-1-1-2-de",
+            "productSlug": "keeper",
+            "group": "documentation",
+            "type": "guide",
+            "title": {
+                "de": "Keeper Admin Guide (Deutsch)",
+                "en": "Keeper Admin Guide (German)"
+            },
+            "description": {
+                "de": "Administrationsleitfaden f\u00fcr Deployment, Betrieb und Wartung von Keeper.",
+                "en": "Administration guide for deployment, operations and maintenance of Keeper."
+            },
+            "version": "1.1.2",
+            "language": "de",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-24",
+            "path": "products/keeper/1.1.2/keeper-admin-guide-1.1.2-de.pdf",
+            "featured": false,
+            "popular": true,
+            "tags": [
+                "admin",
+                "guide",
+                "docs"
+            ],
+            "fileName": "keeper-admin-guide-1.1.2-de.pdf",
+            "fileSize": 1652,
+            "checksumSha256": "30f2589dfa30d0cdeb828eba2bdcc90edf9feaeaf07cbde0f5a7a7db97a512fc"
+        },
+        {
+            "id": "logview-3.5-package",
+            "slug": "sasd-logview-3-5-package",
+            "productSlug": "logview",
+            "group": "products",
+            "type": "package",
+            "title": {
+                "de": "SASD LogView 3.5",
+                "en": "SASD LogView 3.5"
+            },
+            "description": {
+                "de": "Desktop-Paket von SASD LogView 3.5 f\u00fcr Log-Analyse und Sichtung.",
+                "en": "Desktop package of SASD LogView 3.5 for log analysis and inspection."
+            },
+            "version": "3.5",
+            "language": "multi",
+            "platform": "windows",
+            "status": "current",
+            "releaseDate": "2026-03-20",
+            "path": "products/logview/3.5/sasd-logview-3.5.zip",
+            "featured": false,
+            "popular": true,
+            "tags": [
+                "desktop",
+                "windows",
+                "logs"
+            ],
+            "fileName": "sasd-logview-3.5.zip",
+            "fileSize": 158,
+            "checksumSha256": "c8d4b673ee5a99f0c0a7042745e148e2927cc943a207660551bb83c108ac23ed"
+        },
+        {
+            "id": "cpp-training-2026-03-workbook",
+            "slug": "cpp-training-2026-03-workbook",
+            "productSlug": null,
+            "group": "training",
+            "type": "workbook",
+            "title": {
+                "de": "C++ Training M\u00e4rz 2026 \u2013 Workbook",
+                "en": "C++ Training March 2026 \u2013 Workbook"
+            },
+            "description": {
+                "de": "Arbeitsunterlage f\u00fcr das SASD C++ Training mit \u00dcbungen und Notizen.",
+                "en": "Workbook for the SASD C++ training with exercises and notes."
+            },
+            "version": "2026-03",
+            "language": "de",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-18",
+            "path": "training/cpp-course/2026-03/cpp-training-2026-03-workbook-de.pdf",
+            "featured": true,
+            "popular": false,
+            "tags": [
+                "training",
+                "cpp",
+                "workbook"
+            ],
+            "fileName": "cpp-training-2026-03-workbook-de.pdf",
+            "fileSize": 1629,
+            "checksumSha256": "f68b5e36585838bd44724a56ce694bbe8d7f7d1f3311bc37cfddddccf75f37c3"
+        },
+        {
+            "id": "cpp-training-2026-03-slides",
+            "slug": "cpp-training-2026-03-slides",
+            "productSlug": null,
+            "group": "training",
+            "type": "slides",
+            "title": {
+                "de": "C++ Training M\u00e4rz 2026 \u2013 Pr\u00e4sentation",
+                "en": "C++ Training March 2026 \u2013 Slides"
+            },
+            "description": {
+                "de": "Pr\u00e4sentationsfolien zum C++ Grundlagentraining.",
+                "en": "Presentation slides for the C++ fundamentals training."
+            },
+            "version": "2026-03",
+            "language": "de",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-18",
+            "path": "training/cpp-course/2026-03/cpp-training-2026-03-slides-de.pdf",
+            "featured": false,
+            "popular": true,
+            "tags": [
+                "training",
+                "cpp",
+                "slides"
+            ],
+            "fileName": "cpp-training-2026-03-slides-de.pdf",
+            "fileSize": 1649,
+            "checksumSha256": "008e92d63c4f28f5cb20921ad4aad60cb2ca182eead90104dab3ee6300f97f55"
+        },
+        {
+            "id": "sasd-engineering-guide-companion",
+            "slug": "sasd-engineering-guide-companion-files",
+            "productSlug": null,
+            "group": "books",
+            "type": "companion",
+            "title": {
+                "de": "SASD Engineering Guide \u2013 Begleitmaterial",
+                "en": "SASD Engineering Guide \u2013 Companion files"
+            },
+            "description": {
+                "de": "Begleitdateien, Beispiele und Vorlagen zum SASD Engineering Guide.",
+                "en": "Companion files, examples and templates for the SASD Engineering Guide."
+            },
+            "version": "2026-01",
+            "language": "multi",
+            "platform": "neutral",
+            "status": "current",
+            "releaseDate": "2026-03-10",
+            "path": "books/sasd-engineering-guide/2026-01/sasd-engineering-guide-companion-files.zip",
+            "featured": false,
+            "popular": false,
+            "tags": [
+                "book",
+                "templates",
+                "examples"
+            ],
+            "fileName": "sasd-engineering-guide-companion-files.zip",
+            "fileSize": 176,
+            "checksumSha256": "bc7a464ed1486cf0cf86d4e298a94bb9b8c57cea1b1f65aff305f6233de56f89"
+        },
+        {
+            "id": "mustela-1.8.0-archive",
+            "slug": "mustela-1-8-0-archive-package",
+            "productSlug": "mustela",
+            "group": "products",
+            "type": "package",
+            "title": {
+                "de": "Mustela 1.8.0 Archivpaket",
+                "en": "Mustela 1.8.0 archive package"
+            },
+            "description": {
+                "de": "\u00c4lteres Archivpaket f\u00fcr Kompatibilit\u00e4tszwecke.",
+                "en": "Older archive package for compatibility purposes."
+            },
+            "version": "1.8.0",
+            "language": "multi",
+            "platform": "neutral",
+            "status": "archived",
+            "releaseDate": "2025-12-15",
+            "path": "products/mustela/1.8.0/mustela-1.8.0.zip",
+            "featured": false,
+            "popular": false,
+            "tags": [
+                "archive",
+                "legacy"
+            ],
+            "fileName": "mustela-1.8.0.zip",
+            "fileSize": 164,
+            "checksumSha256": "5ff253d9c5bcc15bcf5607057569d8848f320a638747a6db39869f1337a1d495"
+        }
+    ]
+}
