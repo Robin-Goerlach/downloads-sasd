@@ -1,0 +1,38 @@
+###############################################################################
+# SASD GmbH
+# Project: downloads-sasd
+# File: .htaccess
+#
+# Description:
+#   Root-level Apache configuration for shared hosting environments where the
+#   subdomain points to the project root instead of the /public directory.
+#
+# Maintainer:
+#   Robin Goerlach
+#
+# Created:
+#   2026-03-31
+###############################################################################
+
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Block direct web access to internal project directories.
+RewriteRule ^(?:app|cli|config|data|docs|resources|src|storage|vendor)(?:/|$) - [F,L,NC]
+
+# Block direct access to internal project metadata and development files.
+RewriteRule ^(?:composer\.(?:json|lock)|phpunit\.xml(?:\.dist)?|README\.md|LICENSE)$ - [F,L,NC]
+
+# Allow direct access to files that physically exist inside /public without
+# requiring the web server document root to point at /public.
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -d
+RewriteRule ^(.*)$ public/$1 [L]
+
+# Route everything else through the root compatibility front controller.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]
